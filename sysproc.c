@@ -104,7 +104,7 @@ sys_settickets(int num)
 
 
 int
-getpinfo(struct pstat *)
+sys_getpinfo(struct pstat *pstat_out)
 {
   return 0;
 }

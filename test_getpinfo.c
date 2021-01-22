@@ -19,7 +19,8 @@ getpinfo_test(void)
 
   getpinfo(&proc_stats);
 
-  for (int i = 0; i < NPROC; i++)
+  int i;
+  for(i = 0; i < NPROC; i++)
   {
     printf(1, "pid: [%d] in-use: [%d] h-ticks: [%d] l-ticks: [%d]\n",
       proc_stats.pid[i],

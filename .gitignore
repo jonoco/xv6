@@ -5,6 +5,8 @@ _*
 *.asm
 *.sym
 *.img
+*.patch
+*.md
 vectors.S
 bootblock
 entryother
@@ -15,3 +17,4 @@ kernelmemfs
 mkfs
 .gdbinit
 MakeFile
+.vscode
